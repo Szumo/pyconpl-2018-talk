@@ -1,28 +1,268 @@
-class: middle, center
+class: center, middle
+
 # How to work with legacy code and keep your sanity
  
 ## Maciej Szumocki
 
 ## PyConPL 2018
 
----
-
-## About me
-
 ???
-We're hiring 
+
+* 3 stories of my expierences working with legacy code and rewriting applications in Python. 
+* Q&A between stories so we're a bit more interactive, so please put those questions in sli.do right away
+* What worked, what did not, and what kind of mindset works best when you have a pile of undocumented code without automated tests, and you need to do something with it. 
 
 ---
 
 ## What is legacy code
 
+> Legacy code refers to an application system source code type that is no longer supported. Legacy code can also refer to unsupported operating systems, hardware and formats. In most cases, legacy code is converted 
+> to a modern software language and platform. However, to retain familiar user functionality, legacy code is sometimes carried into new environments.
+
+
+--
+
+> There is a common, false perception that legacy code is old. Although some software developers look at legacy code as a poorly written program, legacy code actually describes a code base that is no longer 
+> engineered but continually patched. Over time, an unlimited number of modifications may be made to a code base based on customer demand, causing what was originally well-written code to evolve into a complex 
+> monster.
+
+--
+
+> A software developer will recognize legacy code when a feature cannot be added without breaking another logic. At this point, the developers may begin lobbying for a new system.
+
+.bottom[Source: Techopedia]
+
+???
+
+* You know when you see it
+* How many of you worked with it?
+* How many of you are working with legacy code right now?
+* In most cases, legacy code is converted to modern software language and platform - is it really?
+
 ---
 
 ## What is sanity :)
 
+> Sanity: the ability to think and behave in a normal and rational manner; sound mental health.
+
+???
+
+Not a psychological conference
+Let's keep it simple
+
+--
+
+* Making rational decisions
+* Avoid being frustrated or unhappy
+
+???
+
+* How many of you were happy working with legacy code? How many were unhappy? Do you know why?
+
 ---
 
+## About me
+
+### Started with
+![ZX Spectrum](ZXSpectrum48k.jpg)
+
+By <a href="//commons.wikimedia.org/wiki/User:Pixel8" title="User:Pixel8">Bill Bertram</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/2.5" title="Creative Commons Attribution-Share Alike 2.5">CC BY-SA 2.5</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=170050">Link</a>
+
+???
+
+* Started with this around 30 years ago
+* 20 years of programmming as a professional
+
+---
+## About me
+
+* 2004 - i've learned about Python (2.3)
+* My favourite language ever since
+* Though I also use a lot of other languages 
+* Currently VP of Engineering at [Shortlist.co](<https://shortlist.co>)
 
 
+???
+
+* 7 last years more into leadership and management - perspective of "other side"
+* 3 last job - SV startups at various stages of growth
+* Working remotely with a all remote team
+
+## About me
+
+* Twitter: MSzumocki
+* Email: szumo@szumo.neyt
+* LinkedIn: https://www.linkedin.com/in/maciejszumocki/
+
+???
+
+We're hiring  :)
+
+---
+
+## Story 1
+
+### PHP 4 system rewrite into Python
+
+???
+
+* A bit of background  - how big was the project, how big and skilled was the team, how were we organized
+
+--
+
+* How a project estimated to take 18 months can take a lot longer
+
+--
+
+* How can you work on 2 projects at the same time
+
+---
+
+## Lessons learned
+* Be careful about your own enthusiasm for new technologies
+
+--
+
+* Put old project into definite maintenance mode
+
+--
+
+* It is hard to keep up with a moving target
+
+--
+
+* Don't just get buy-in from business side but also cultivate it
+
+--
+
+* Make a decision about feature parity and stick to it
+
+
+---
+
+## Q&A 1
+
+---
+
+## Story 2
+
+### Maintaining a legacy Python service
+
+* A bit of background  - solo project taken over from someone who recently left, with no documentation or unit tests, meant to be replaced within 6 months
+
+--
+
+* What happens when your misunderstand what you're supposed to be doing
+
+--
+
+* What happens when no one is managing you
+
+--
+
+* What happens people helping you are taken away
+
+---
+
+## Lessons learned:
+
+* Be careful about your own enthusiasm for improvements
+
+--
+
+* Make sure stakeholders share the same goals
+
+--
+
+* Automated tests save lives, and they cannot be taken away from you
+
+--
+
+* Don't believe those that are just going through their own version of story 1
+
+---
+
+## Q&A 2
+
+----
+
+## Story 3
+
+### When code in a startup starts to gather technical debt
+
+* A bit of background - how it started, how it got where is is now
+
+???
+
+* Developed by a software house for a couple of months before I joined
+
+--
+
+* Death of thousand cuts - how every bit of refactoring you pushed for later piles up
+
+???
+
+* Not keeping up to date with library versions 
+
+--
+
+* Skeletons in the backlog
+
+???
+
+* We're on ticket #9000, but recently we saw something done which was already in JIRA as 20-something
+
+---
+
+## Lessons learned:   
+
+* "They won't let me fix it" - is it easier to ask for forgiveness or permission, really?
+
+--
+
+* Trust or frustration - your choice
+
+???
+
+Build trust before or you will get frustrated later
+
+--
+
+* Do it or not do it - don't "try"
+
+???
+
+Avoid confusion and misaligned expectations
+
+--
+
+* Use "experiment mode" mindset when you need it
+
+???
+
+Manage expectations
+
+--
+
+* But do switch out if it when you no longer do
+
+???
+
+Or all your code will be of experimental quality
+
+--
+
+* More bodies can help with some problems, but not all
+
+???
+
+* People will write code of similar quality to existing code
+
+
+---
+
+## Final Q&A
+
+* Slides at: https://github.com/Szumo/pyconpl-2018-talk
 
 
