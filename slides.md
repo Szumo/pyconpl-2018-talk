@@ -138,7 +138,7 @@ We're hiring  :)
 * Make a decision about feature parity and stick to it
 
 
----
+--
 
 ## Q&A 1
 
@@ -180,11 +180,11 @@ We're hiring  :)
 
 * Don't believe those that are just going through their own version of story 1
 
----
+--
 
 ## Q&A 2
 
-----
+---
 
 ## Story 3
 

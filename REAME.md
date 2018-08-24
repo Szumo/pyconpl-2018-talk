@@ -9,7 +9,7 @@ Install markdown-to-slides
 
 Build
 
-    markdown-to-slides slides.md -o slides.html
+    markdown-to-slides slides.md -o slides.html -s slides.css
 
         
 
