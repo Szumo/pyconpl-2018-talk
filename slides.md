@@ -9,8 +9,8 @@ class: center, middle
 ???
 
 * 3 stories of my expierences working with legacy code and rewriting applications in Python. 
-* Q&A between stories so we're a bit more interactive, so please put those questions in sli.do right away
 * What worked, what did not, and what kind of mindset works best when you have a pile of undocumented code without automated tests, and you need to do something with it. 
+* Q&A between stories so we're a bit more interactive, so please put those questions in sli.do right away
 
 ---
 
@@ -37,7 +37,7 @@ class: center, middle
 * You know when you see it
 * How many of you worked with it?
 * How many of you are working with legacy code right now?
-* In most cases, legacy code is converted to modern software language and platform - is it really?
+* "In most cases, legacy code is converted to modern software language and platform" - is it really?
 
 ---
 
@@ -57,7 +57,8 @@ Let's keep it simple
 
 ???
 
-* How many of you were happy working with legacy code? How many were unhappy? Do you know why?
+* How many of you were happy working with legacy code? 
+* How many were unhappy? 
 
 ---
 
@@ -74,6 +75,7 @@ By <a href="//commons.wikimedia.org/wiki/User:Pixel8" title="User:Pixel8">Bill B
 * 20 years of programmming as a professional
 
 ---
+
 ## About me
 
 * 2004 - i've learned about Python (2.3)
@@ -88,15 +90,17 @@ By <a href="//commons.wikimedia.org/wiki/User:Pixel8" title="User:Pixel8">Bill B
 * 3 last job - SV startups at various stages of growth
 * Working remotely with a all remote team
 
+---
+
 ## About me
 
 * Twitter: MSzumocki
-* Email: szumo@szumo.neyt
+* Email: szumo@szumo.net
 * LinkedIn: https://www.linkedin.com/in/maciejszumocki/
 
 ???
 
-We're hiring  :)
+If working remotely is something you'd like to do please contact me - we're hiring  :)
 
 ---
 
@@ -110,15 +114,24 @@ We're hiring  :)
 
 --
 
+* Django wasn't even at 1.0 then
+* We used what was available at the time - Python 2.4, Twisted 6, SQLAlchemy 0.3
+* XHTML + some jQuery on the frontend :)
+* None of us had real experience using those :)
+
+--
 * How a project estimated to take 18 months can take a lot longer
 
 --
-
 * How can you work on 2 projects at the same time
+
+--
+* Both versions still in use today (banks)
 
 ---
 
 ## Lessons learned
+
 * Be careful about your own enthusiasm for new technologies
 
 --
@@ -148,9 +161,28 @@ We're hiring  :)
 
 ### Maintaining a legacy Python service
 
-* A bit of background  - solo project taken over from someone who recently left, with no documentation or unit tests, meant to be replaced within 6 months
-
+* A bit of background  - solo project taken over from someone who recently left
+  
 --
+
+* Backend service using Python 2 and CherryPy 3
+  
+--
+
+* No documentation 
+  
+--
+
+* No unit tests 
+  
+--
+
+* "We'll have it rewritten in Java in 6 months"
+
+---
+
+## Story 2 (continued)
+
 
 * What happens when your misunderstand what you're supposed to be doing
 
@@ -195,6 +227,10 @@ We're hiring  :)
 ???
 
 * Developed by a software house for a couple of months before I joined
+
+-- 
+
+* Django 1.6, Angular 1
 
 --
 
@@ -264,5 +300,4 @@ Or all your code will be of experimental quality
 ## Final Q&A
 
 * Slides at: https://github.com/Szumo/pyconpl-2018-talk
-
 
